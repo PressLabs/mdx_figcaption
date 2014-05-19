@@ -15,4 +15,4 @@ and transform it to HTML5-friendly
     </figure>
 
 
-It works by walking the markdown `etree` and wrapping every `img` tag with a `caption`  and `figcaption`. 
+It works by walking the markdown `etree` and wrapping every `img` tag with a `caption`  and `figcaption`.  The caption text is taken from the markdown (optional) title.
